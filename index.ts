@@ -76,7 +76,6 @@ SOFTWARE.
         });
         await page.mouse.click(132, 103, { button: 'left' }) // proceed to next page
         await sleep(config["timeout"]*1000)
-        index += 1;
     }
     await browser.close()
 })();
