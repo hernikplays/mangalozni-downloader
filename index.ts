@@ -66,7 +66,7 @@ SOFTWARE.
                 continue
             }
         }
-        fs.writeFile(`${__dirname}/out/${current}.png`, data.replace(/^data:image\/png;base64,/, ""), 'base64', function (err) {
+        fs.writeFile(`${__dirname}/out/${(index < 10)?`0${index}`:index}.png`, data.replace(/^data:image\/png;base64,/, ""), 'base64', function (err) {
             if (err) {
                 console.log(`! Error while saving ${current}: ${err}`);
                 if (config["stopOnError"]) {
