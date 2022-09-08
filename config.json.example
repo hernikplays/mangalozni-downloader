@@ -1,0 +1,7 @@
+{
+    "url":"https://reader_url",
+    "cookie":"YOURCOOKIE=cookiehere",
+    "cookieDomain":"cookie.domain",
+    "stopOnError":false,
+    "timeout":5
+}
